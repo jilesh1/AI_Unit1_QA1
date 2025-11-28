@@ -82,8 +82,8 @@ public class astar {
     }
 
     public static void main(String[] args) {
-        AStar g = new AStar();
-
+        astar g = new astar();
+        
         // edges: src, dest, weight
         g.addEdge(0, 1, 4);
         g.addEdge(0, 2, 2);
