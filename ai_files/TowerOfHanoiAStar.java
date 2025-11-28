@@ -1,6 +1,6 @@
 import java.util.*;
 
-class TowerOfHanoiAStar {
+class TowerOfHanoiAStar   {
 
     static class State implements Comparable<State> {
         List<Stack<Integer>> pegs;
