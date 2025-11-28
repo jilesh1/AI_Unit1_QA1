@@ -4,7 +4,7 @@ class TowerOfHanoiAStar {
 
     static class State implements Comparable<State> {
         List<Stack<Integer>> pegs;
-        List<String> moves;
+        List<String> moves; 
         int g; // cost so far
         int h; // heuristic cost
 
